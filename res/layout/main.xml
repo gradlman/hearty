@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/gridFeatures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/frm_transition"
+        android:gravity="center_horizontal|fill_horizontal"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" android:numColumns="auto_fit" android:columnWidth="95dp">
+
+    </GridView>
+
+    <LinearLayout
+        android:id="@+id/layoutPlots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <de.lme.plotview.PlotView
+            android:id="@+id/plotSlot1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:layout_weight="1"/>
+
+        <de.lme.plotview.PlotView
+            android:id="@+id/plotSlot2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:layout_weight="1"/>
+
+        <de.lme.plotview.PlotView
+            android:id="@+id/plotSlot3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:layout_weight="1"/>
+
+        <de.lme.plotview.PlotView
+            android:id="@+id/plotSlot4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:layout_weight="1"/>
+
+        <de.lme.plotview.PlotView
+            android:id="@+id/plotSlot5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:layout_weight="1"/>
+
+        <de.lme.plotview.PlotView
+            android:id="@+id/plotSlot6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+    <item android:id="@+id/uplink" android:icon="@drawable/ic_menu_refresh" android:title="@string/menuConnect" android:checkable="true"></item>
+    <item android:id="@+id/test" android:icon="@drawable/ic_menu_set_as" android:title="@string/menuTest"></item>
+	<!--  <item android:id="@+id/add_feat" android:icon="@drawable/ic_menu_set_as" android:title="@string/menuAttachFeature"></item>  -->
+	<item android:id="@+id/add_plot" android:icon="@drawable/ic_menu_manage" android:title="@string/menuAttachPlot"></item>
+	<item android:id="@+id/sound" android:icon="@drawable/ic_menu_notifications" android:title="@string/menuSoundDisable" android:checkable="true"></item>
+	
+	</menu>

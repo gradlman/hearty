@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_blue1_dark">#FF6699FF</color>
+    <color name="color_blue2">#FF73A2FF</color>
+    <color name="color_blue3">#FF7FAAFF</color>
+    <color name="color_blue4">#FF8CB3FF</color>
+    <color name="color_blue5">#FF98BCFF</color>
+    <color name="color_blue6">#FFA5C4FF</color>
+    <color name="color_blue7">#FFB1CDFF</color>
+    <color name="color_blue8">#FFBED5FF</color>
+    <color name="color_blue9">#FFCADEFF</color>
+    <color name="color_blue10">#FFD7E7FF</color>
+    <color name="color_blue11">#FFE3EFFF</color>
+    <color name="color_blue12_light">#FFF0F8FF</color>
+    
+    <color name="color_gr1_green">#FF9ACD32</color>
+    <color name="color_gr2">#FF9FC336</color>
+    <color name="color_gr3">#FFA3B83A</color>
+    <color name="color_gr4">#FFA8AE3D</color>
+    <color name="color_gr5">#FFADA441</color>
+    <color name="color_gr6">#FFB19A45</color>
+    <color name="color_gr7">#FFB68F49</color>
+    <color name="color_gr8">#FFBA854D</color>
+    <color name="color_gr9">#FFBF7B51</color>
+    <color name="color_gr10">#FFC47154</color>
+    <color name="color_gr11">#FFC86658</color>
+    <color name="color_gr12_red">#FFCD5C5C</color>
+    
+    <color name="color_grad_start">#FF242424</color>
+    <color name="color_grad_end">#FF101010</color>
+        
+    
+</resources>

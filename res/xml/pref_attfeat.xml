@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="de.lme.hearty" >
+
+    <PreferenceCategory android:title="Attach Feature Indicator" >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pk_af_rr"
+            android:summary="the RR interval"
+            android:title="RR" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pk_af_qrs"
+            android:summary="the width of the QRS complex"
+            android:title="QRS" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pk_af_qra"
+            android:summary="the amplitude of the QR or RS difference"
+            android:title="QRA/RSA" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pk_af_pri"
+            android:summary="the length of the PR or QT interval"
+            android:title="PRI/QTI" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pk_af_prs"
+            android:summary="the length of the isoelectric PR or ST segment"
+            android:title="PRS/STS" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pk_af_qrsta"
+            android:summary="the area under the QRST curve"
+            android:title="QRSTA" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pk_af_cc"
+            android:summary="the correlation coefficient with the template of a normal beat"
+            android:title="CC" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

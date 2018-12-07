@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="de.lme.hearty" >
+
+    <PreferenceCategory android:title="Plot options" >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pk_plot_pants"
+            android:summary="Show algorithm output plot"
+            android:title="intOut" />
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pk_plot_qrs"
+            android:summary="Show isolated QRS"
+            android:title="QRS" />
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pk_plot"
+            android:summary="Show heart rate plot"
+            android:title="HR" />
+        
+        <ListPreference
+				android:key="pk_source"
+				android:title="Data Source"
+				android:summary="Select Data Source"
+				android:entries="@array/arrayDataSources"
+				android:entryValues="@array/arrayDataSourcesInt"
+				android:dialogTitle="Data Source" />
+        
+        <Preference
+				android:key="pk_bt"
+				android:title="BT Source"
+				android:summary="Select Bluetooth Sensor Node" />        
+        
+        <EditTextPreference
+					android:key="pk_col"
+					android:title="Column"
+					android:defaultValue="2"					
+					android:inputType="number"
+					android:summary="Data Column"
+					android:dialogTitle="Column" />
+        
+        <EditTextPreference
+					android:key="pk_mult"
+					android:title="Multiplier"
+					android:defaultValue="1000"					
+					android:inputType="numberSigned"
+					android:summary="Multiplier"
+					android:dialogTitle="Multiplier" />
+        
+        <EditTextPreference
+					android:key="pk_simcount"
+					android:title="SimCount"
+					android:defaultValue="0"					
+					android:inputType="numberSigned"
+					android:summary="Numer of Samples to simulate"
+					android:dialogTitle="SimCount" />
+        
+        <EditTextPreference
+					android:key="pk_sampling"
+					android:title="Sampling Rate"
+					android:defaultValue="360"					
+					android:inputType="number"
+					android:summary="Click to override."
+					android:dialogTitle="Override Sampling Rate" />
+        
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>
