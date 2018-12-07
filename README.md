@@ -32,17 +32,23 @@ For each record, a signal file and an annotation file have to be supplied.
 For example, to include MIT-BIH Arrhythmia DB record #100 and MIT-BIH
 Supraventricular Arrhythmia DB record #804, supply the following files:
 
+```
 .../files/mitdb100ann.csv
 .../files/mitdb100sig.csv
 .../files/mitdb804ann.csv
 .../files/mitdb804sig.csv.gz
+```
 
 These must be created from original database records using the following
 commands/PhysioNET utilities:
 
-> rdsamp -r [db record numer] -c -H -f 0 -v -pS > mitdb[db record numer]sig.csv;
-> rdann -r [db record numer] -f 0 -a atr -v > mitdb[db record numer]ann.csv;
-(> gzip -9 mitdb[db record numer]sig.csv;)
+```
+rdsamp -r [db record numer] -c -H -f 0 -v -pS > mitdb[db record numer]sig.csv;
+rdann -r [db record numer] -f 0 -a atr -v > mitdb[db record numer]ann.csv;
+```
+```
+(gzip -9 mitdb[db record numer]sig.csv;)
+```
 
 
 ## Usage
